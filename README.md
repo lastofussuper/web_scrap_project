@@ -1,15 +1,15 @@
-# solo_seller_automation
-a project to automate the workflow for marketplace listing utilizing a secondhand platform.
+Features:
+- Config-driven scraping pipeline
+- Extracts structured data from semi-structured HTML
+- Handles multiple extraction strategies (regex + DOM parsing)
+- Includes retry and filtering logic
+- Designed for extensibility
 
+Challenges:
+- Encountered anti-bot protection (Cloudflare)
+- Explored header spoofing and request tuning
 
-## Current Stage
-- Extract hidden item URLs from marketplace UI (DOM-based)
-- Download high-quality product images (f800)
-- Clean and organize data per listing
-
-## Roadmap
-- [ ] Structured metadata extraction (brand, price, condition)
-- [ ] LLM-based image selection & ranking
-- [ ] Prompt-based title/description generation
-- [ ] Human-in-the-loop publishing workflow
-
+Future improvements:
+- Proxy rotation
+- Async scraping
+- Scaling to distributed system
