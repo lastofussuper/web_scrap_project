@@ -42,11 +42,11 @@ The pipeline focuses on robust data extraction and processing rather than large-
 ---
 
 ## Project Structure
-├── web_scrap_project.py # main processing pipeline
-├── input_file.json # input URLs
-├── read_html.py # HTML parsing experiments
-├── download_foto.py # helper scripts
-├── test_response.html # sample HTML for debugging
+── web_scrap_project.py # main processing pipeline
+── input_file.json # input URLs
+── read_html.py # HTML parsing experiments
+── download_foto.py # helper scripts
+── test_response.html # sample HTML for debugging
 
 ## Project Structure
 
